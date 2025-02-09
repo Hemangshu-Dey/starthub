@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Eye, EyeIcon } from "lucide-react";
-import { cn, formatDate } from "../lib/utils";
+import {EyeIcon } from "lucide-react";
+import {formatDate } from "../lib/utils";
 
 import { Button } from "@/components/ui/button";
 const StartupCard = ({ post }: { StartupTypeCard }) => {
