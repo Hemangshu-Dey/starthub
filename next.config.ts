@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    dangerouslyAllowSVG:true,
+    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  devIndicators: {
+    appIsrStatus: true,
+    buildActivity: true,
+    buildActivityPosition: "bottom-right",
+  },
+  // experimental: {
+  //   // after: true,
+  //   ppr: "incremental",
+  // },
 };
 
 export default nextConfig;
